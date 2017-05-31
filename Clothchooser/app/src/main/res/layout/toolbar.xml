@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#26A69A">
+
+        <TextView
+            android:id="@+id/text_toolbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clothchooser"
+            android:textColor="@android:color/white"
+            android:textSize="19sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="end"
+            android:padding="10sp">
+
+            <LinearLayout
+                android:id="@+id/btn_screenshot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5sp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_photo_camera" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/logoutbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5sp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_log_out_button"
+                    android:visibility="visible" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+</LinearLayout>

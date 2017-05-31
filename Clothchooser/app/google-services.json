@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "824649018867",
+    "firebase_url": "https://clothchooser.firebaseio.com",
+    "project_id": "clothchooser",
+    "storage_bucket": "clothchooser.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824649018867:android:28a3816ebdcf3941",
+        "android_client_info": {
+          "package_name": "com.self.clothchooser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824649018867-7em5stlbou1vl7tj9jd22ssu7dnoj06a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.self.clothchooser",
+            "certificate_hash": "cc09f540d6cc21c52084251a7698ffd929dc3226"
+          }
+        },
+        {
+          "client_id": "824649018867-60i0c9tn82mmta9qjuirklcp91jg4rsg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpoRkkYmBQj731as4sY0405R2SUr18GGw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "824649018867-60i0c9tn82mmta9qjuirklcp91jg4rsg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

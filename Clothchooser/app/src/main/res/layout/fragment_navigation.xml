@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context="com.self.clothchooser.NavigationFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="270sp"
+        android:background="@drawable/banner" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10sp">
+
+        <LinearLayout
+            android:id="@+id/layout_addpair"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_addnew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15sp"
+                android:text="Add New Pair"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1sp"
+                android:background="@android:color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_pairrandom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_random"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15sp"
+                android:text="Random Pair"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <View
+
+                android:layout_width="wrap_content"
+                android:layout_height="1sp"
+                android:background="@android:color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_bookmark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_bookmark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15sp"
+                android:text="Bookmark's"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <View
+
+                android:layout_width="wrap_content"
+                android:layout_height="1sp"
+                android:background="@android:color/black" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="App Version"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
